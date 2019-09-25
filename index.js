@@ -22,5 +22,5 @@ app.listen(PORT, () => {
 
 // Load login
 app.get('/', (req, res) => {
-    res.sendFile('views/index.html', {root: __dirname});
+    res.sendFile('index.html', {root: __dirname});
 });
